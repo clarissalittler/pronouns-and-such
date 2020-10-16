@@ -1,0 +1,4 @@
+int main () {
+  int t = 0;
+  for (;;t++) putchar(((t>>6^t>>8|t>>12|t)/7)&63);
+}
